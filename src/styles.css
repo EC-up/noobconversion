@@ -1,0 +1,85 @@
+/* src/styles.css */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.max-w-md {
+  max-width: 480px;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.shadow {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.rounded-lg {
+  border-radius: 0.75rem;
+}
+
+.block {
+  display: block;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.border {
+  border: 1px solid #d1d5db;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-gray-800 {
+  color: #2d3748;
+}
+
+.text-gray-700 {
+  color: #4b5563;
+}
+
+.bg-indigo-600 {
+  background-color: #6366f1;
+}
+
+.hover\:bg-indigo-700:hover {
+  background-color: #4f46e5;
+}
+
+.transition {
+  transition: all 0.2s ease-in-out;
+}
